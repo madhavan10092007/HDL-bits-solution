@@ -8,33 +8,40 @@ Each problem folder holds a screenshot of my submission, a screenshot of the tim
 
 | # | Problem | Section | Solution | Notes |
 |---|---------|---------|----------|-------|
-| 000 | Getting Started | Getting Started | [code](000_getting_started/code.png) | — |
-| 001 | Output Zero | Getting Started | [code](001_output_zero/code.png) | — |
-| 002 | Simple wire | Verilog Language > Basics | [code](002_simple_wire/code.png) | — |
-| 003 | Four wires | Verilog Language > Basics | [code](003_four_wires/code.png) | — |
-| 004 | Inverter | Verilog Language > Basics | [code](004_inverter/code.png) | — |
-| 005 | AND gate | Verilog Language > Basics | [code](005_and_gate/code.png) | — |
-| 006 | NOR gate | Verilog Language > Basics | [code](006_nor_gate/code.png) | — |
-| 007 | XNOR gate | Verilog Language > Basics | [code](007_xnor_gate/code.png) | — |
-| 008 | Declaring wires | Verilog Language > Basics | [code](008_declaring_wires/code.png) | — |
-| 009 | 7458 chip | Verilog Language > Basics | [code](009_7458_chip/code.png) | — |
-| 010 | Vectors | Verilog Language > Vectors | [code](010_vectors/code.png) | — |
-| 011 | Vectors in more detail | Verilog Language > Vectors | [code](011_vectors_in_more_detail/code.png) | — |
-| 012 | Vector part select | Verilog Language > Vectors | [code](012_vector_part_select/code.png) | — |
-| 013 | Bitwise operators | Verilog Language > Vectors | [code](013_bitwise_operators/code.png) | — |
-| 014 | Four-input gates | Verilog Language > Vectors | [code](014_four_input_gates/code.png) | — |
+| 000 | Getting Started | Getting Started | [code](01_getting_started/000_getting_started/code.png) | — |
+| 001 | Output Zero | Getting Started | [code](01_getting_started/001_output_zero/code.png) | — |
+| 002 | Simple wire | Verilog Language > Basics | [code](02_basics/002_simple_wire/code.png) | — |
+| 003 | Four wires | Verilog Language > Basics | [code](02_basics/003_four_wires/code.png) | — |
+| 004 | Inverter | Verilog Language > Basics | [code](02_basics/004_inverter/code.png) | — |
+| 005 | AND gate | Verilog Language > Basics | [code](02_basics/005_and_gate/code.png) | — |
+| 006 | NOR gate | Verilog Language > Basics | [code](02_basics/006_nor_gate/code.png) | — |
+| 007 | XNOR gate | Verilog Language > Basics | [code](02_basics/007_xnor_gate/code.png) | — |
+| 008 | Declaring wires | Verilog Language > Basics | [code](02_basics/008_declaring_wires/code.png) | — |
+| 009 | 7458 chip | Verilog Language > Basics | [code](02_basics/009_7458_chip/code.png) | — |
+| 010 | Vectors | Verilog Language > Vectors | [code](03_vectors/010_vectors/code.png) | — |
+| 011 | Vectors in more detail | Verilog Language > Vectors | [code](03_vectors/011_vectors_in_more_detail/code.png) | — |
+| 012 | Vector part select | Verilog Language > Vectors | [code](03_vectors/012_vector_part_select/code.png) | — |
+| 013 | Bitwise operators | Verilog Language > Vectors | [code](03_vectors/013_bitwise_operators/code.png) | — |
+| 014 | Four-input gates | Verilog Language > Vectors | [code](03_vectors/014_four_input_gates/code.png) | — |
 
 ## Folder layout
+
+The folders follow the section order on HDLBits. Each section folder holds one folder per problem.
 
 ```
 hdlbits-solutions/
 ├── README.md
-├── .gitignore
-├── 000_getting_started/
-│   ├── code.png
-│   ├── timing.png
-│   └── notes.jpg
-├── 001_output_zero/
+├── 01_getting_started/
+│   ├── 000_getting_started/
+│   │   ├── code.png
+│   │   ├── timing.png
+│   │   └── notes.jpg
+│   └── 001_output_zero/
+├── 02_basics/
+│   ├── 002_simple_wire/
+│   └── ...
+├── 03_vectors/
+│   ├── 010_vectors/
 │   └── ...
 └── ...
 ```
