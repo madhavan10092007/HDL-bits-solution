@@ -1,0 +1,2 @@
+   - [HDLBits: 7458 chip](https://hdlbits.01xz.net/wiki/7458): original problem statement
+   - 74HC58 datasheet (NXP): pin diagram and function table for the dual AND-OR gate this problem models.https://datasheet.octopart.com/74HC58N-NXP-Semiconductors-datasheet-180990304.pdf
